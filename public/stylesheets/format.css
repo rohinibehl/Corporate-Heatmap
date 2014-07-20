@@ -1,0 +1,52 @@
+body {
+  color: #333;
+}
+.jumbotron {
+  text-align: center;
+}
+.twitter-timeline {
+  position: static;
+  display: block;
+  width: 520px;
+
+  margin: auto;
+  height: 480px;
+  top: 170px;
+  z-index: 100;
+}
+ul {
+  border-top: 1px solid #bbb;
+  position: absolute;
+  top: 730px;
+  margin-left: 0;
+  padding-left: 0;
+  display: inline-block;
+  border-bottom: 1px solid #bbb;
+}
+ul li {
+  margin: 10px 10px;
+  list-style: none;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  box-shadow: 0 0 10px #666;
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 300px;
+  top: 3440px;
+  height: 30px;
+  z-index: 500;
+}

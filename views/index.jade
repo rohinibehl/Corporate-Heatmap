@@ -1,0 +1,61 @@
+
+html
+    head
+        title Corporate Heatmap by Industry
+        link(rel='stylesheet' href='/stylesheets/format.css')
+        link(rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css")
+        script(src="http://code.jquery.com/jquery-1.9.1.min.js")
+        script(src="/socket.io/socket.io.js")
+        script(src="/javascripts/script.js")
+    body
+
+            .jumbotron
+                h1 Twitter Tag Heatmap by Industry
+
+
+            ul
+                h2 Technology
+                each val, key in data.tech
+                    li(data-tech="#{key}")= key
+
+                h2 Entertainment
+                each val, key in data.entertainment
+                    li(data-entertainment="#{key}")= key
+
+                h2 Auto Industry
+                each val, key in data.autoIndustry
+                    li(data-autoIndustry="#{key}")= key
+
+                h2 Retail
+                each val, key in data.retail
+                    li(data-retail="#{key}")= key
+                h2 Mobile Carriers
+                each val, key in data.mobileCarriers
+                    li(data-mobileCarriers="#{key}")= key
+                h2 Financial Sector
+                each val, key in data.financial
+                    li(data-financial="#{key}")= key
+                h2 Food 
+                each val, key in data.food
+                    li(data-food="#{key}")= key
+
+
+            .footer
+                p 
+                    | App created by Rohini Behl using 
+                    | <a href='http://nodejs.org'> Node.js,</a> 
+                    | <a href= 'http://socket.io/'>Socket.io,</a>
+                    | <a href='http://getbootstrap.com/'>Bootstrap,</a>
+                    | <a href='http://jade-lang.com/'> Jade, </a>
+                    | <a href='http://en.wikipedia.org/wiki/Cron'>Cron,</a>
+                    | and the
+                    | <a href='https://dev.twitter.com/docs/api/streaming'>Twitter Streaming APIs</a>
+                p Fork this code on Bitbucket
+
+        <a class="twitter-timeline" href="https://twitter.com/rbehl3/lists/corporations-twitter-feed" data-widget-id="490933786624786432">Tweets from https://twitter.com/rbehl3/lists/corporations-twitter-feed</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
+
