@@ -2,7 +2,7 @@
 
 Info
 -----
-This web app is hosted on heroku.com for free. It utilizes Node.js, Bootstrap, Express, Socket.io, Jade, and the Twitter Streaming APIs. 
+This web app is hosted on heroku.com for free and the demo can be viewed at http://corporate-heatmap.herokuapp.com/. It utilizes Node.js, Bootstrap, Express, Socket.io, Jade, and the Twitter Streaming APIs. 
 
 Setup
 -----
@@ -16,4 +16,4 @@ npm install (if that doesn't work, sudo npm install)
 
 node app.js
 
-Navigate to localhost:3000 and view the app. 
+Navigate to localhost:3000 and view the app.
