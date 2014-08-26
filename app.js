@@ -11,11 +11,11 @@ var app = express();
 
 var server = http.createServer(app);
 
-//Twitter API keys
-var api_key = 'MY4hl2s8wC4QIrfs0IXn6rGu8';
-var api_secret = 'WLajmJlwZxIzb4FheOY1DHl7AZyBbNLKzuRaDn6A1yKJue1k2m';
-var access_token = '2652812126-IVxldr8vp1rPvrq1mm4b3eHExOMIvSDFlDQofQh';
-var access_token_secret = 'ccSJPEEXOAbKQUe3lSGQCKUZR8s9hEGhKoG0Eek3idzrp';
+//Twitter API keys - Fill these in with the keys you obtain when you sign up for a Twitter Account. 
+var api_key = 
+var api_secret = 
+var access_token = 
+var access_token_secret = 
 
 // Twitter symbols array
 var watchSymbols = ['$msft', '$intc', '$hpq', '$lnkd', '$yhoo', '$goog', '$fb', '$csco', '$aapl',  '$nvda', '$orcl', '$ntap', '$twtr', '$emc','$ibm', '$gluu', '$plug', '$sndk',
