@@ -8,12 +8,12 @@ Setup
 -----
 Navigate to the directory where you want this repository to be cloned into. Run the following commands.
 
-git clone https://rb001@bitbucket.org/rb001/corporate-heatmap.git
+- git clone https://rb001@bitbucket.org/rb001/corporate-heatmap.git
 
-cd corporate-heatmap
+- cd corporate-heatmap
 
-npm install (if that doesn't work, sudo npm install)
+- npm install (if that doesn't work, sudo npm install)
 
-node app.js
+- node app.js
 
-Navigate to localhost:3000 and view the app.
+- Navigate to localhost:3000 and view the app.
